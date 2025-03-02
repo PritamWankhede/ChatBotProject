@@ -1,5 +1,5 @@
 import React from 'react';
-import Chatbot from './Chatbot';  // Importing the Chatbot component
+import Chatbot from './Chatbot'; 
 import './App.css';
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
         <h1>Support Agent Chatbot for CDP</h1>
       </header>
       <div className="chatbot-container">
-        <Chatbot />  {/* The Chatbot component to handle user interaction */}
+        <Chatbot />  
       </div>
     </div>
   );
